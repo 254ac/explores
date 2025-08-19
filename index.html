@@ -12,7 +12,7 @@
   <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
   <nav class="main-nav">
     <div class="logo-container">
-      <div class="logo">SAVANNAH <img src="images/icon.jpg" alt="icon" class="inline-icon"> EXPLORERS</div>
+      <div class="logo">SAVANNAH <img src="Images/icon.jpg" alt="icon" class="inline-icon"> EXPLORERS</div>
       <div class="logo-sign"><i>---Your Adventure, Your Story, Your Journey---</i></div>
     </div>
     <ul class="nav-links">
@@ -55,70 +55,70 @@
   <div class="tour-list">
     
     <div class="tour" id="tour1">
-      <img src="images/p4.jpg" alt="City Adventure">
+      <img src="Images/p4.jpg" alt="City Adventure">
       <h3>City Adventure - Maasai Beach Nyali</h3>
       <p>3 Days - Explore the best city sights.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour2">
-      <img src="images/p5.jpg" alt="Nature Escape">
+      <img src="Images/p5.jpg" alt="Nature Escape">
       <h3>Nature Escape - Diani Beach Ukunda</h3>
       <p>5 Days - A journey into breathtaking landscapes.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour3">
-      <img src="images/p6.jpg" alt="City Adventure">
+      <img src="Images/p6.jpg" alt="City Adventure">
       <h3>City Adventure - Pirates Mombasa</h3>
       <p>3 Days - Explore the best city sights.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour4">
-      <img src="images/p7.jpg" alt="Nature Escape">
+      <img src="Images/p7.jpg" alt="Nature Escape">
       <h3>Nature Escape - Tsavo East National Park</h3>
       <p>5 Days - A journey into breathtaking landscapes.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour5">
-      <img src="images/p8.jpg" alt="City Adventure">
+      <img src="Images/p8.jpg" alt="City Adventure">
       <h3>City Adventure - Maasai Mara National Park</h3>
       <p>3 Days - Explore the best city sights.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour6">
-      <img src="images/p9.jpg" alt="Nature Escape">
+      <img src="Images/p9.jpg" alt="Nature Escape">
       <h3>Nature Escape - Tsavo West Camping Barracks</h3>
       <p>5 Days - A journey into breathtaking landscapes.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour7">
-      <img src="images/p10.jpg" alt="City Adventure">
+      <img src="Images/p10.jpg" alt="City Adventure">
       <h3>City Adventure - Tsavo East National Park</h3>
       <p>3 Days - Explore the best city sights.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour8">
-      <img src="images/p11.jpg" alt="Nature Escape">
+      <img src="Images/p11.jpg" alt="Nature Escape">
       <h3>Nature Escape - Nairobi National Park</h3>
       <p>5 Days - A journey into breathtaking landscapes.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour9">
-      <img src="images/p12.jpg" alt="City Adventure">
+      <img src="Images/p12.jpg" alt="City Adventure">
       <h3>City Adventure - Tsavo West National Park</h3>
       <p>3 Days - Explore the best city sights.</p>
       <a href="#" class="btn">View Details</a>
     </div>
 
     <div class="tour" id="tour10">
-      <img src="images/p13.jpg" alt="Nature Escape">
+      <img src="Images/p13.jpg" alt="Nature Escape">
       <h3>Nature Escape - Tsavo West National Park</h3>
       <p>5 Days - A journey into breathtaking landscapes.</p>
       <a href="#" class="btn">View Details</a>
@@ -180,24 +180,24 @@ function toggleMenu() {
 
 // Individual slideshows per tour
 const tourSlideshows = [
-  { selector: "#tour1 img", images: ["images/p4.jpg", "images/p5.jpg", "images/p6.jpg"] },
-  { selector: "#tour2 img", images: ["images/p7.jpg", "images/p8.jpg"] },
-  { selector: "#tour3 img", images: ["images/p9.jpg", "images/p10.jpg"] },
-  { selector: "#tour4 img", images: ["images/p11.jpg", "images/p12.jpg"] },
-  { selector: "#tour5 img", images: ["images/p13.jpg", "images/p4.jpg"] },
-  { selector: "#tour6 img", images: ["images/p5.jpg", "images/p6.jpg"] },
-  { selector: "#tour7 img", images: ["images/p7.jpg", "images/p8.jpg"] },
-  { selector: "#tour8 img", images: ["images/p9.jpg", "images/p10.jpg"] },
-  { selector: "#tour9 img", images: ["images/p11.jpg", "images/p12.jpg"] },
-  { selector: "#tour10 img", images: ["images/p13.jpg", "images/p4.jpg"] }
+  { selector: "#tour1 img", Images: ["Images/p4.jpg", "images/p5.jpg", "images/p6.jpg"] },
+  { selector: "#tour2 img", Images: ["Images/p7.jpg", "images/p8.jpg"] },
+  { selector: "#tour3 img", Images: ["Images/p9.jpg", "images/p10.jpg"] },
+  { selector: "#tour4 img", Images: ["Images/p11.jpg", "images/p12.jpg"] },
+  { selector: "#tour5 img", Images: ["Images/p13.jpg", "images/p4.jpg"] },
+  { selector: "#tour6 img", Images: ["Images/p5.jpg", "images/p6.jpg"] },
+  { selector: "#tour7 img", Images: ["Images/p7.jpg", "images/p8.jpg"] },
+  { selector: "#tour8 img", Images: ["Images/p9.jpg", "images/p10.jpg"] },
+  { selector: "#tour9 img", Images: ["Images/p11.jpg", "images/p12.jpg"] },
+  { selector: "#tour10 img", Images: ["Images/p13.jpg", "images/p4.jpg"] }
 ];
 
 tourSlideshows.forEach((tour) => {
   const img = document.querySelector(tour.selector);
   let currentImageIndex = Math.floor(Math.random() * tour.images.length); // Random starting point
 
-  if (img && tour.images.length > 0) {
-    img.src = tour.images[currentImageIndex];
+  if (img && tour.Images.length > 0) {
+    img.src = tour.Images[currentImageIndex];
     img.classList.add('visible'); // Show the first image immediately
 
     setInterval(() => {
@@ -221,3 +221,4 @@ tourSlideshows.forEach((tour) => {
 
 </body>
 </html>
+
